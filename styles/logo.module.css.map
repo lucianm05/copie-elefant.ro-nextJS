@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,KAAK,AAAC,CACJ,OAAO,CAAE,KAAK,CACd,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,MAAM,CAAE,MAAM,CAKf,AAHC,MAAM,EAAC,SAAS,EAAE,KAAK,EANzB,AAAA,KAAK,AAAC,CAOF,OAAO,CAAE,IAAI,CAEhB,CAED,AAAA,YAAY,AAAC,CACX,OAAO,CAAE,IAAI,CAKd,AAHC,MAAM,EAAC,SAAS,EAAE,KAAK,EAHzB,AAAA,YAAY,AAAC,CAIT,OAAO,CAAE,KAAK,CAEjB",
+    "sources": [
+        "../components/layout/logo.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "logo.module.css"
+}

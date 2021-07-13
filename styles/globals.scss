@@ -1,0 +1,48 @@
+@import './_config.scss';
+
+@font-face {
+  src: '/fonts/Lato-Regular.woff2' format('woff2');
+  font-family: 'Lato';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.5em;
+  font-family: 'Lato', 'Helvetica', Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  min-height: 200vh;
+  text-rendering: optimizeSpeed;
+}
+
+.ScreenReadersOnly {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.Icon {
+  display: block;
+  margin: 0;
+  fill: $customIconColorMobile;
+
+  @media (min-width: $lg) {
+    fill: $customOrange;
+  }
+}

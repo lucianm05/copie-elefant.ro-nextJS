@@ -1,0 +1,20 @@
+@import '../../styles/_config.scss';
+
+.Logo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+
+  @media(min-width: $lg) {
+    display: none;
+  }
+}
+
+.DesktopOnly {
+  display: none;
+
+  @media(min-width: $lg) {
+    display: block;
+  }
+}
