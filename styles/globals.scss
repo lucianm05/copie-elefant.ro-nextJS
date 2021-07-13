@@ -28,6 +28,11 @@ body {
   text-rendering: optimizeSpeed;
 }
 
+button {
+  background-color: transparent;
+  border: none;
+}
+
 .ScreenReadersOnly {
   position: absolute;
   left: -10000px;

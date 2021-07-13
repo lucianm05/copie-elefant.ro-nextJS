@@ -1,0 +1,26 @@
+@import '../../styles/_config.scss';
+
+.NavigationSidelistItem {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid $customLightGray;
+
+  &:nth-last-of-type(1) {
+    border: none;
+  }
+}
+
+.NavigationSidelistItemLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 0.6rem 0.7rem;
+  text-decoration: none;
+  color: $customTextColorDarkGray;
+
+  & svg {
+    fill: $customGreen;
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,uBAAuB,AAAC,CACtB,OAAO,CAAE,KAAK,CACd,KAAK,CAAE,IAAI,CACX,aAAa,CAAE,GAAG,CAAC,KAAK,CCGR,OAAO,CDExB,AARD,AAKE,uBALqB,AAKpB,iBAAkB,CAAA,CAAC,CAAE,CACpB,MAAM,CAAE,IAAI,CACb,AAGH,AAAA,2BAA2B,AAAC,CAC1B,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG,CACnB,eAAe,CAAE,aAAa,CAC9B,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,OAAO,CAAE,aAAa,CACtB,eAAe,CAAE,IAAI,CACrB,KAAK,CCXmB,OAAO,CDgBhC,AAbD,AAUE,2BAVyB,CAUvB,GAAG,AAAC,CACJ,IAAI,CCjBM,OAAO,CDkBlB",
+    "sources": [
+        "../components/layout/navigation-sidelist-item.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "navigation-sidelist-item.module.css"
+}

@@ -1,0 +1,119 @@
+@import '../../styles/_config.scss';
+
+.MobileSidelistNav {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  width: 100vw;
+  min-height: 100vh;
+  transition: transform 0.25s ease-in-out;
+  z-index: 1;
+}
+
+.Active {
+  transform: translateX(0);
+  transition: transform 0.25s ease-in-out;
+}
+
+.MobileSidelistContainer {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: calc(100% - 60px);
+  overflow-y: auto;
+  background-color: #fff;
+
+  & svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  & a {
+    color: $customTextColorDarkGray;
+  }
+}
+
+.MobileSidelistTitle {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $customGreen;
+  color: #fff;
+  padding: 0.6rem 0.7rem;
+
+  & svg {
+    fill: #fff;
+  }
+}
+
+.MobileSidelist { 
+  margin-top: 2.8rem;
+  overflow-y: scroll;
+  border-bottom: 2px solid $customGreen;
+}
+
+.MobileSidelistSpecials {
+
+  & a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.6rem 0.7rem;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    border-bottom: 1px solid $customLightGray;
+
+    & div {
+      display: flex;
+      gap: 0.5rem;
+    }
+  }
+
+  & svg {
+    fill: $customGreen;
+  }
+}
+
+.MobileSidelistMyAccountContainer {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: $customLightGray;
+  padding: 0.6rem 0.3rem;
+  text-decoration: none;
+}
+
+.MobileSidelistMyAccount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 10px;
+
+  & div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+  }
+
+  & svg {
+    fill: $customGreen;
+  }
+}

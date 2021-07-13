@@ -1,0 +1,47 @@
+@import '../../styles/_config.scss';
+
+.Navigation {
+  display: block;
+  width: 100%;
+  height: 50%;
+  border-bottom: 3px solid $customGreen;
+  transition: all 0.25s ease-in-out;
+
+  &Hidden {
+    visibility: hidden;
+    transition: all 0.1s ease-in-out;
+  }
+}
+
+.NavigationContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.NavigationContainerChild1, .NavigationContainerChild2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  & svg {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.NavigationLogo {
+  max-width: 150px;
+  
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
