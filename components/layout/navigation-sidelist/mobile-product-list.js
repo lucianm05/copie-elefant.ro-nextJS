@@ -1,14 +1,14 @@
 import Link from 'next/link';
 
-import classes from '/styles/navigation-sidelist.module.css';
-import NavigationSidelistItem from './navigation-sidelist-item';
-import IconCancel from '../ui/icons/icon-cancel';
-import IconProfilePicture from '../ui/icons/icon-profile-picture';
-import IconArrowRight from '../ui/icons/icon-arrow-right';
-import IconDiamond from '../ui/icons/icon-diamond';
-import IconGps from '../ui/icons/icon-gps';
+import classes from '/styles/mobile-product-list.module.css';
+import MobileProductListItem from './mobile-product-list-item';
+import IconCancel from '../../ui/icons/icon-cancel';
+import IconProfilePicture from '../../ui/icons/icon-profile-picture';
+import IconArrowRight from '../../ui/icons/icon-arrow-right';
+import IconDiamond from '../../ui/icons/icon-diamond';
+import IconGps from '../../ui/icons/icon-gps';
 
-const MobileSidelist = (props) => {
+const MobileProductList = (props) => {
   const { showSidelist, setShowSidelist } = props;
 
   const setShowSidelistHandler = () => {
@@ -35,20 +35,20 @@ const MobileSidelist = (props) => {
   ];
 
   return (
-    <nav className={classes.MobileSidelistNav + ' ' + (showSidelist ? classes.Active : '')}>
-      <div className={classes.MobileSidelistContainer}>
-        <div className={classes.MobileSidelistTitle}>
+    <nav className={classes.MobileProductListNav + ' ' + (showSidelist ? classes.Active : '')}>
+      <div className={classes.MobileProductListContainer}>
+        <div className={classes.MobileProductListTitle}>
           <p>Categorii produse</p>
           <button onClick={setShowSidelistHandler} type='button' aria-label='Închide lista de produse.'>
             <IconCancel />
           </button>
         </div>
-        <ul className={classes.MobileSidelist}>
+        <ul className={classes.MobileProductList}>
           {categories.map((category) => (
-            <NavigationSidelistItem key={category.title} category={category} />
+            <MobileProductListItem key={category.title} category={category} />
           ))}
         </ul>
-        <div className={classes.MobileSidelistSpecials}>
+        <div className={classes.MobileProductListSpecials}>
           <Link href='#'>
             <a title='Verifică beneficiile contului elefant premium.' aria-label='Verifică beneficiile contului elefant premium.'>
               <div>
@@ -73,8 +73,8 @@ const MobileSidelist = (props) => {
           </Link>
         </div>
         <Link href='#'>
-          <a className={classes.MobileSidelistMyAccountContainer} title='Înregistrează sau autentifică un utilizator' aria-label='Înregistrează sau autentifică un utilizator'>
-            <div className={classes.MobileSidelistMyAccount}>
+          <a className={classes.MobileProductListMyAccountContainer} title='Înregistrează sau autentifică un utilizator' aria-label='Înregistrează sau autentifică un utilizator'>
+            <div className={classes.MobileProductListMyAccount}>
               <div>
                 <IconProfilePicture />
                 <p>Contul meu</p>
@@ -88,4 +88,4 @@ const MobileSidelist = (props) => {
   );
 };
 
-export default MobileSidelist;
+export default MobileProductList;

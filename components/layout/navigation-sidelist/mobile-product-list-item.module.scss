@@ -1,6 +1,6 @@
-@import '../../styles/_config.scss';
+@import '../../../styles/_config.scss';
 
-.NavigationSidelistItem {
+.MobileProductListItem {
   display: block;
   width: 100%;
   border-bottom: 1px solid $customLightGray;
@@ -10,7 +10,7 @@
   }
 }
 
-.NavigationSidelistItemLink {
+.MobileProductListItemLink {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 import classes from '/styles/navigation.module.css';
-import LogoMobile from './logo-mobile';
-import LogoDesktop from './logo-desktop';
+import LogoMobile from '../ui/logo/logo-mobile';
+import LogoDesktop from '../ui/logo/logo-desktop';
 import IconHeart from '../ui/icons/icon-heart';
 import IconShoppingCart from '../ui/icons/icon-shopping-cart';
 import IconMobileMenu from '../ui/icons/icon-mobile-menu';

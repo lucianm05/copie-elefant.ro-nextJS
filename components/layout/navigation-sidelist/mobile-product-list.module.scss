@@ -1,6 +1,6 @@
-@import '../../styles/_config.scss';
+@import '../../../styles/_config.scss';
 
-.MobileSidelistNav {
+.MobileProductListNav {
   display: block;
   position: fixed;
   top: 0;
@@ -17,7 +17,7 @@
   transition: transform 0.25s ease-in-out;
 }
 
-.MobileSidelistContainer {
+.MobileProductListContainer {
   display: block;
   position: fixed;
   top: 0;
@@ -37,7 +37,7 @@
   }
 }
 
-.MobileSidelistTitle {
+.MobileProductListTitle {
   display: flex;
   position: fixed;
   top: 0;
@@ -55,13 +55,13 @@
   }
 }
 
-.MobileSidelist { 
+.MobileProductList { 
   margin-top: 2.8rem;
   overflow-y: scroll;
   border-bottom: 2px solid $customGreen;
 }
 
-.MobileSidelistSpecials {
+.MobileProductListSpecials {
 
   & a {
     display: flex;
@@ -84,7 +84,7 @@
   }
 }
 
-.MobileSidelistMyAccountContainer {
+.MobileProductListMyAccountContainer {
   display: block;
   position: fixed;
   bottom: 0;
@@ -95,7 +95,7 @@
   text-decoration: none;
 }
 
-.MobileSidelistMyAccount {
+.MobileProductListMyAccount {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
