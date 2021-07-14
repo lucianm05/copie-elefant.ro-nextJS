@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAEA,AAAA,oCAAoC,AAAC,CACnC,OAAO,CAAE,KAAK,CACd,QAAQ,CAAE,KAAK,CACf,MAAM,CAAE,CAAC,CACT,IAAI,CAAE,CAAC,CACP,KAAK,CAAE,IAAI,CACX,gBAAgB,CCAA,OAAO,CDCvB,OAAO,CAAE,aAAa,CACtB,eAAe,CAAE,IAAI,CACtB,AAED,AAAA,2BAA2B,AAAC,CAC1B,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG,CACnB,eAAe,CAAE,aAAa,CAC9B,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,gBAAgB,CAAE,IAAI,CACtB,OAAO,CAAE,MAAM,CACf,aAAa,CAAE,IAAI,CAapB,AArBD,AAUE,2BAVyB,CAUvB,GAAG,AAAC,CACJ,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG,CACnB,eAAe,CAAE,MAAM,CACvB,WAAW,CAAE,MAAM,CACnB,GAAG,CAAE,MAAM,CACZ,AAhBH,AAkBE,2BAlByB,CAkBvB,GAAG,AAAC,CACJ,IAAI,CC1BM,OAAO,CD2BlB",
     "sources": [
-        "../components/layout/navigation-sidelist/mobile-product-list-my-account.module.scss",
+        "../components/layout/mobile/mobile-product-list/mobile-product-list-my-account.module.scss",
         "_config.scss"
     ],
     "names": [],

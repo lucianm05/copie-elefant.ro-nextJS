@@ -7,5 +7,6 @@ icon-search: Search by Lyhn from the Noun Project
 icon-profile-picture: Profile picture by Shocho from the Noun Project
 icon-cancel: X by Sandra Klasovita from the Noun Project
 icon-arrow-right: right by AlePio from the Noun Project
+icon-arrow-left: right by AlePio from the Noun Project
 icon-diamond: Diamond by Three Six Five from the Noun Project
 icon-gps: Location by Maniacco from the Noun Project

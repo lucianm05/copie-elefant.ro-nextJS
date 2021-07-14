@@ -2,10 +2,11 @@ import { useEffect, useState } from 'react';
 
 import classes from '/styles/main-navigation.module.css';
 
-import Navigation from './navigation';
-import MobileSearch from './mobile-search';
-import MobileProductList from './mobile-product-list/mobile-product-list';
-import Sublist from './mobile-product-list/sublist/sublist';
+import MobileNavigation from './mobile/mobile-navigation';
+import MobileSearch from './mobile/mobile-search';
+import MobileProductList from './mobile/mobile-product-list/mobile-product-list';
+import Sublist from './mobile/mobile-product-list/sublist/sublist';
+import DesktopNavigation from './desktop/desktop-navigation';
 
 const MainNavigation = () => {
   const [navigationVisible, setNavigationVisible] = useState(true);
@@ -20,10 +21,11 @@ const MainNavigation = () => {
 
   return (
     <header className={classes.Header}>
-      <Navigation />
+      <MobileNavigation />
       <MobileSearch navigationVisible={navigationVisible} />
       <MobileProductList />
       <Sublist />
+      <DesktopNavigation />
     </header>
   );
 };

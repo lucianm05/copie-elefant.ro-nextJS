@@ -1,0 +1,35 @@
+@import '../../../../styles/_config.scss';
+
+.MobileProductListMyAccountContainer {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: $customLightGray;
+  padding: 0.6rem 0.3rem;
+  text-decoration: none;
+}
+
+.MobileProductListMyAccount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 10px;
+
+  & div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+  }
+
+  & svg {
+    fill: $customGreen;
+  }
+}

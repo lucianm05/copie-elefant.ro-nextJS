@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAEA,AAAA,uBAAuB,AAAC,CACtB,OAAO,CAAE,KAAK,CACd,QAAQ,CAAE,KAAK,CACf,MAAM,CAAE,CAAC,CACT,IAAI,CAAE,CAAC,CACP,KAAK,CAAE,IAAI,CACX,gBAAgB,CCAA,OAAO,CDCvB,OAAO,CAAE,aAAa,CACtB,eAAe,CAAE,IAAI,CACtB,AAED,AAAA,cAAc,AAAC,CACb,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG,CACnB,eAAe,CAAE,aAAa,CAC9B,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,gBAAgB,CAAE,IAAI,CACtB,OAAO,CAAE,aAAa,CACtB,aAAa,CAAE,IAAI,CAapB,AArBD,AAUE,cAVY,CAUV,GAAG,AAAC,CACJ,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG,CACnB,eAAe,CAAE,MAAM,CACvB,WAAW,CAAE,MAAM,CACnB,GAAG,CAAE,MAAM,CACZ,AAhBH,AAkBE,cAlBY,CAkBV,GAAG,AAAC,CACJ,IAAI,CC1BM,OAAO,CD2BlB",
     "sources": [
-        "../components/layout/mobile-product-list/sublist/sublist-footer.module.scss",
+        "../components/layout/mobile/mobile-product-list/sublist/sublist-footer.module.scss",
         "_config.scss"
     ],
     "names": [],

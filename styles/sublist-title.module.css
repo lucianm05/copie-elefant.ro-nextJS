@@ -1,2 +1,2 @@
-.SublistTitle{display:flex;position:fixed;top:0;left:0;width:100%;text-align:center;text-transform:capitalize;flex-direction:row;align-items:center;gap:0.6rem;background-color:#7ed321;color:#fff;padding:0.6rem 0.7rem}.SublistTitle button{transform:rotateY(180deg)}.SublistTitle svg{fill:#fff}
+.SublistTitle{display:flex;position:fixed;top:0;left:0;width:100%;text-align:center;text-transform:capitalize;flex-direction:row;align-items:center;gap:0.6rem;background-color:#7ed321;color:#fff;padding:0.6rem 0.7rem}.SublistTitle svg{fill:#fff}
 /*# sourceMappingURL=sublist-title.module.css.map */

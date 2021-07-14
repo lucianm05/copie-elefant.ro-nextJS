@@ -1,2 +1,2 @@
-.Header{display:block;position:fixed;top:0;left:0;width:100vw;height:7.5rem}
+.Header{display:block;position:fixed;top:0;left:0;width:100vw;height:7.5rem}@media (min-width: 992px){.Header{position:unset;width:100%;height:auto}}
 /*# sourceMappingURL=main-navigation.module.css.map */
