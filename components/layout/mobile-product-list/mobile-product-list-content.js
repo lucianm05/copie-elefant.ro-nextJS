@@ -6,26 +6,15 @@ import MobileProductListItem from './mobile-product-list-item';
 import Sublist from './sublist/sublist';
 
 const MobileProductListContent = () => {
-  const [showSideSublist, setShowSideSublist] = useState(false);
-  const [sublistCategory, setSublistCategory] = useState({ id: '', title: '', subcategories: [] });
-
   const categories = getAllCategories();
-
-  const showSideSublistHandler = (event) => {
-    const targetId = event.target.dataset.id;
-    const selectedCategory = getSelectedCategory(targetId);
-    setSublistCategory(selectedCategory);
-    setShowSideSublist((prevState) => !prevState);
-  };
 
   return (
     <Fragment>
       <ul className={classes.MobileProductListContent}>
         {categories.map((category) => (
-          <MobileProductListItem key={category.id} category={category} showSideSublistHandler={showSideSublistHandler} />
+          <MobileProductListItem key={category.id} category={category} />
         ))}
       </ul>
-      <Sublist showSideSublist={showSideSublist} setShowSideSublist={setShowSideSublist} category={sublistCategory} />
     </Fragment>
   );
 }; 

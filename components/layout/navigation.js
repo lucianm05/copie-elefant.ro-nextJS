@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useContext } from 'react';
 
 import classes from '/styles/navigation.module.css';
 import LogoMobile from '../ui/logo/logo-mobile';
@@ -6,19 +7,17 @@ import LogoDesktop from '../ui/logo/logo-desktop';
 import IconHeart from '../ui/icons/icon-heart';
 import IconShoppingCart from '../ui/icons/icon-shopping-cart';
 import IconMobileMenu from '../ui/icons/icon-mobile-menu';
+import Context from '../../store/context';
 
-const Navigation = (props) => {
-  const { setShowSidelist } = props;
-
-  const setShowSidelistHandler = () => {
-    setShowSidelist(prevState => !prevState);
-  };
+const Navigation = () => {
+  const context = useContext(Context);
+  const setShowSidebar = context.setShowSidebar;
 
   return (
     <nav className={classes.Navigation}>
       <div className={classes.NavigationContainer}>
         <div className={classes.NavigationContainerChild1}>
-          <button onClick={setShowSidelistHandler} type='button' aria-label='Afișează lista de produse.' title='Afișează lista de produse.'>
+          <button onClick={setShowSidebar} type='button' aria-label='Afișează lista de produse.' title='Afișează lista de produse.'>
             <IconMobileMenu />
           </button>
           <div className={classes.NavigationLogo}>

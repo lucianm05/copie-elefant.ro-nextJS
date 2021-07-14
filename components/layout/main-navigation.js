@@ -5,10 +5,10 @@ import classes from '/styles/main-navigation.module.css';
 import Navigation from './navigation';
 import MobileSearch from './mobile-search';
 import MobileProductList from './mobile-product-list/mobile-product-list';
+import Sublist from './mobile-product-list/sublist/sublist';
 
 const MainNavigation = () => {
   const [navigationVisible, setNavigationVisible] = useState(true);
-  const [showSidelist, setShowSidelist] = useState(false);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
@@ -20,9 +20,10 @@ const MainNavigation = () => {
 
   return (
     <header className={classes.Header}>
-      <Navigation showSidelist={showSidelist} setShowSidelist={setShowSidelist} />
+      <Navigation />
       <MobileSearch navigationVisible={navigationVisible} />
-      <MobileProductList showSidelist={showSidelist} setShowSidelist={setShowSidelist} />
+      <MobileProductList />
+      <Sublist />
     </header>
   );
 };
