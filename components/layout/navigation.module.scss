@@ -2,15 +2,12 @@
 
 .Navigation {
   display: block;
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
   width: 100%;
   height: 50%;
   border-bottom: 3px solid $customGreen;
-  transition: all 0.25s ease-in-out;
-
-  &Hidden {
-    visibility: hidden;
-    transition: all 0.1s ease-in-out;
-  }
 }
 
 .NavigationContainer {

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,eAAe,AAAC,CACd,UAAU,CAAE,MAAM,CAClB,UAAU,CAAE,MAAM,CACnB",
+    "sources": [
+        "../components/layout/mobile-product-list/sublist/sublist-content.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "sublist-content.module.css"
+}

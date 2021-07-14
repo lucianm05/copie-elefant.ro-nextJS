@@ -4,7 +4,7 @@ import classes from '/styles/main-navigation.module.css';
 
 import Navigation from './navigation';
 import MobileSearch from './mobile-search';
-import MobileProductList from './navigation-sidelist/mobile-product-list';
+import MobileProductList from './mobile-product-list/mobile-product-list';
 
 const MainNavigation = () => {
   const [navigationVisible, setNavigationVisible] = useState(true);
@@ -15,12 +15,12 @@ const MainNavigation = () => {
   }, []);
 
   const handleScroll = () => {
-    setNavigationVisible(!(scrollY > 60));
+    setNavigationVisible(!(scrollY > 120));
   };
 
   return (
     <header className={classes.Header}>
-      <Navigation navigationVisible={navigationVisible} setShowSidelist={setShowSidelist} />
+      <Navigation showSidelist={showSidelist} setShowSidelist={setShowSidelist} />
       <MobileSearch navigationVisible={navigationVisible} />
       <MobileProductList showSidelist={showSidelist} setShowSidelist={setShowSidelist} />
     </header>

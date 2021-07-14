@@ -9,7 +9,7 @@
   width: 100vw;
   min-height: 100vh;
   transition: transform 0.25s ease-in-out;
-  z-index: 1;
+  z-index: 3;
 }
 
 .Active {
@@ -35,10 +35,4 @@
   & a {
     color: $customTextColorDarkGray;
   }
-}
-
-.MobileProductList { 
-  margin-top: 2.8rem;
-  overflow-y: scroll;
-  border-bottom: 2px solid $customGreen;
 }

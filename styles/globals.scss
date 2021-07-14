@@ -23,9 +23,13 @@ html {
 
 body {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   min-height: 200vh;
   text-rendering: optimizeSpeed;
+}
+
+main {
+  margin-top: 9.5rem;
 }
 
 button {

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,yBAAyB,AAAC,CACxB,UAAU,CAAE,MAAM,CAClB,UAAU,CAAE,MAAM,CAClB,aAAa,CAAE,GAAG,CAAC,KAAK,CCCZ,OAAO,CDApB",
+    "sources": [
+        "../components/layout/mobile-product-list/mobile-product-list-content.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "mobile-product-list-content.module.css"
+}

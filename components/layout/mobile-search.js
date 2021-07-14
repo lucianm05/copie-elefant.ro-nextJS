@@ -5,7 +5,7 @@ const MobileSearch = (props) => {
   const { navigationVisible } = props;
 
   return (
-    <div className={classes.MobileSearch + ' ' + (!navigationVisible ? classes.MobileSearchAbove : '')}>
+    <div className={classes.MobileSearch + ' ' + (!navigationVisible ? classes.MobileSearchHidden : '')}>
       <form action='#' method='#' className={classes.MobileSearchForm}>
         <fieldset className={classes.MobileSearchFieldset}>
           <legend className={'ScreenReadersOnly'}>Caută pe site-ul elefant.ro:</legend>

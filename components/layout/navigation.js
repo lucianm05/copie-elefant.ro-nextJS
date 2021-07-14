@@ -8,14 +8,14 @@ import IconShoppingCart from '../ui/icons/icon-shopping-cart';
 import IconMobileMenu from '../ui/icons/icon-mobile-menu';
 
 const Navigation = (props) => {
-  const { navigationVisible, showSidelist, setShowSidelist } = props;
+  const { setShowSidelist } = props;
 
   const setShowSidelistHandler = () => {
     setShowSidelist(prevState => !prevState);
   };
 
   return (
-    <nav className={classes.Navigation + ' ' + (navigationVisible ? '' : classes.NavigationHidden)}>
+    <nav className={classes.Navigation}>
       <div className={classes.NavigationContainer}>
         <div className={classes.NavigationContainerChild1}>
           <button onClick={setShowSidelistHandler} type='button' aria-label='Afișează lista de produse.' title='Afișează lista de produse.'>

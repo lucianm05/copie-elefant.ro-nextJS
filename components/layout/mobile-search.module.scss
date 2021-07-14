@@ -2,14 +2,16 @@
 
 .MobileSearch {
   display: block;
+  position: relative;
+  z-index: 1;
   width: 100vw;
   height: 50%;
   box-shadow: 0 0.35em 0.35em rgba(0, 0, 0, 0.2);
-  margin-top: 0px;
+  margin: 0;
   transition: all 0.25s ease-in-out;
 
-  &Above {
-    margin-top: -60px;
+  &Hidden {
+    margin-top: -7.5rem;
     transition: all 0.25s ease-in-out;
   }
 }

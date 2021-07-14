@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,OAAO,AAAC,CACN,OAAO,CAAE,KAAK,CACd,QAAQ,CAAE,MAAM,CAChB,GAAG,CAAE,CAAC,CACN,IAAI,CAAE,CAAC,CACP,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,MAAM,CACf",
+    "mappings": "AAEA,AAAA,OAAO,AAAC,CACN,OAAO,CAAE,KAAK,CACd,QAAQ,CAAE,KAAK,CACf,GAAG,CAAE,CAAC,CACN,IAAI,CAAE,CAAC,CACP,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,MAAM,CACf",
     "sources": [
         "../components/layout/main-navigation.module.scss",
         "_config.scss"
