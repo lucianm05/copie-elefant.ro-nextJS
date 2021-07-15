@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,mCAAmC,AAAC,CAClC,OAAO,CAAE,KAAK,CACd,cAAc,CAAE,SAAS,CACzB,OAAO,CAAE,QAAQ,CAUlB,AAbD,AAKE,mCALiC,CAK/B,CAAC,AAAC,CACF,eAAe,CAAE,IAAI,CACrB,KAAK,CAAE,IAAI,CACZ,AARH,AAUE,mCAViC,CAU/B,CAAC,AAAA,MAAM,AAAC,CACR,KAAK,CCHkB,OAAO,CDI/B",
+    "sources": [
+        "../components/layout/desktop/desktop-navigation-bottom/sublist/desktop-navigation-bottom-sublist-item.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "desktop-navigation-bottom-sublist-item.module.css"
+}

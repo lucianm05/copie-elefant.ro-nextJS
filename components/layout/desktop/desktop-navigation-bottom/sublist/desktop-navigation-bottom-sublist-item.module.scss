@@ -1,0 +1,16 @@
+@import '../../../../../styles/_config.scss';
+
+.DesktopNavigationBottomSublistItem {
+  display: block;
+  text-transform: uppercase;
+  padding: 0.5rem 0;
+
+  & a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  & a:hover {
+    color: $customTextColorLightGray;
+  }
+}
