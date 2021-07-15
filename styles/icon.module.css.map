@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,KAAK,AAAC,CACJ,IAAI,CCFS,OAAO,CDGrB",
+    "sources": [
+        "../components/icons/icon.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "icon.module.css"
+}

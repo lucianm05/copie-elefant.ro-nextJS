@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,wBAAwB,AAAC,CACvB,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,UAAU,CAAE,CAAC,CAAC,MAAM,CAAC,MAAM,CAAC,eAAkB,CAC/C",
+    "sources": [
+        "../components/layout/desktop/desktop-navigation-bottom/desktop-navigation-bottom.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "desktop-navigation-bottom.module.css"
+}

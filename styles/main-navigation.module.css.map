@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,AAAC,CACN,OAAO,CAAE,KAAK,CACd,QAAQ,CAAE,KAAK,CACf,GAAG,CAAE,CAAC,CACN,IAAI,CAAE,CAAC,CACP,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,MAAM,CAOf,AALC,MAAM,EAAC,SAAS,EAAE,KAAK,EARzB,AAAA,OAAO,AAAC,CASJ,QAAQ,CAAE,KAAK,CACf,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CAEf",
+    "sources": [
+        "../components/layout/main-navigation.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "main-navigation.module.css"
+}

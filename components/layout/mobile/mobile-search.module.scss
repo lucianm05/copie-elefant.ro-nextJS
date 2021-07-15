@@ -1,0 +1,71 @@
+@import '../../../styles/_config.scss';
+
+.MobileSearch {
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  height: 50%;
+  box-shadow: 0 0.35em 0.35em rgba(0, 0, 0, 0.2);
+  margin: 0;
+  transition: all 0.25s ease-in-out;
+
+  &Hidden {
+    margin-top: -7.5rem;
+    transition: all 0.25s ease-in-out;
+  }
+  
+  @media(min-width: $lg) {
+    display: none;
+  }
+}
+
+.MobileSearchForm {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: $customLightGray;
+}
+
+.MobileSearchFieldset {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 0.6rem;
+}
+
+.MobileSearchLabel {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.MobileSearchInput {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid #dcdcdc;
+
+  &::placeholder {
+    color: $customTextColorLightGray;
+  }
+}
+
+.MobileSearchButton {
+  display: block;
+  position: absolute;
+  height: 100%;
+  background-color: $customGreen;
+  right: 0;
+  top: 0;
+  border: none;
+
+  svg {
+    height: 100%;
+    padding: 0.5rem;
+    fill: #fff;
+  }
+}

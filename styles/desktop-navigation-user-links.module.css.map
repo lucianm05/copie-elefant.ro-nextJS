@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,2BAA2B,AAAC,CAC1B,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG,CACnB,GAAG,CAAE,MAAM,CACZ,AAED,AAAA,+BAA+B,AAAC,CAC9B,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,WAAW,CAAE,MAAM,CACnB,eAAe,CAAE,MAAM,CACvB,eAAe,CAAE,IAAI,CACrB,KAAK,CAAE,IAAI,CACX,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CAMb,AAdD,AAUE,+BAV6B,CAU3B,GAAG,AAAC,CACJ,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACb",
+    "sources": [
+        "../components/layout/desktop/desktop-navigation-top/desktop-navigation-user-links.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "desktop-navigation-user-links.module.css"
+}

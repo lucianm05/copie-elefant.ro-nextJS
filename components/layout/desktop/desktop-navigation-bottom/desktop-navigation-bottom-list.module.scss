@@ -1,0 +1,12 @@
+@import '../../../../styles/_config.scss';
+
+.DesktopNavigationBottomList {
+  width: 100%;
+  text-align: center;
+  background-color: $customLightGray;
+  padding: 1.3rem 0;
+  
+  @media(min-width: $xl) {
+    padding: 2rem 0;
+  }
+}

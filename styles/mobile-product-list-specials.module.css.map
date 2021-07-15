@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAEE,0BAFwB,CAEtB,CAAC,AAAC,CACF,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG,CACnB,eAAe,CAAE,aAAa,CAC9B,OAAO,CAAE,aAAa,CACtB,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,eAAe,CAAE,IAAI,CACrB,aAAa,CAAE,GAAG,CAAC,KAAK,CCJV,OAAO,CDUtB,AAhBH,AAYI,0BAZsB,CAEtB,CAAC,CAUC,GAAG,AAAC,CACJ,OAAO,CAAE,IAAI,CACb,GAAG,CAAE,MAAM,CACZ,AAfL,AAkBE,0BAlBwB,CAkBtB,GAAG,AAAC,CACJ,IAAI,CCfM,OAAO,CDgBlB",
+    "sources": [
+        "../components/layout/mobile/mobile-product-list/mobile-product-list-specials.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "mobile-product-list-specials.module.css"
+}

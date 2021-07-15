@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,aAAa,AAAC,CACZ,OAAO,CAAE,IAAI,CACb,QAAQ,CAAE,KAAK,CACf,GAAG,CAAE,CAAC,CACN,IAAI,CAAE,CAAC,CACP,KAAK,CAAE,IAAI,CACX,UAAU,CAAE,MAAM,CAClB,cAAc,CAAE,UAAU,CAC1B,cAAc,CAAE,GAAG,CACnB,WAAW,CAAE,MAAM,CACnB,GAAG,CAAE,MAAM,CACX,gBAAgB,CCPJ,OAAO,CDQnB,KAAK,CAAE,IAAI,CACX,OAAO,CAAE,aAAa,CAKvB,AAlBD,AAeE,aAfW,CAeT,GAAG,AAAC,CACJ,IAAI,CAAE,IAAI,CACX",
+    "sources": [
+        "../components/layout/mobile/mobile-product-list/sublist/sublist-title.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "sublist-title.module.css"
+}

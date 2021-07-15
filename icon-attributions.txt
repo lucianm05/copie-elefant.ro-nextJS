@@ -1,0 +1,12 @@
+Icon attributions:
+icon-head: Head by Gregor Cresnar from the Noun Project
+icon-heart: Heart by khanisorn chalermchan from the Noun Project
+icon-shopping-cart: cart by Alfa Design from the Noun Project
+icon-mobile-menu: lines by Milinda Courey from the Noun Project
+icon-search: Search by Lyhn from the Noun Project
+icon-profile-picture: Profile picture by Shocho from the Noun Project
+icon-cancel: X by Sandra Klasovita from the Noun Project
+icon-arrow-right: right by AlePio from the Noun Project
+icon-arrow-left: right by AlePio from the Noun Project
+icon-diamond: Diamond by Three Six Five from the Noun Project
+icon-gps: Location by Maniacco from the Noun Project

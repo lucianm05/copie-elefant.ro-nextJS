@@ -1,0 +1,16 @@
+@import '../../styles/_config.scss';
+
+.Header {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 7.5rem;
+
+  @media(min-width: $lg) {
+    position: unset;
+    width: 100%;
+    height: auto;
+  }
+}

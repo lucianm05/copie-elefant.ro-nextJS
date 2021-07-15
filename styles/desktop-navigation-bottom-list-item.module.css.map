@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,gCAAgC,AAAC,CAC/B,QAAQ,CAAE,OAAO,CACjB,KAAK,CAAE,WAAW,CAClB,OAAO,CAAE,YAAY,CACrB,OAAO,CAAE,aAAa,CACtB,MAAM,CAAE,OAAO,CAiBhB,AAtBD,AAOE,gCAP8B,AAO7B,iBAAkB,CAAA,CAAC,CAAE,CACpB,gBAAgB,CAAE,IAAI,CACtB,OAAO,CAAE,aAAa,CACtB,aAAa,CAAE,IAAI,CACnB,UAAU,CAAE,CAAC,CAAC,MAAM,CAAC,MAAM,CAAC,eAAkB,CAC/C,AAZH,AAcE,gCAd8B,CAc5B,CAAC,AAAC,CACF,eAAe,CAAE,IAAI,CACrB,KAAK,CAAE,IAAI,CACZ,AAjBH,AAmBE,gCAnB8B,AAmB7B,MAAM,AAAC,CACN,gBAAgB,CAAE,IAAI,CACvB",
+    "sources": [
+        "../components/layout/desktop/desktop-navigation-bottom/desktop-navigation-bottom-list-item.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "desktop-navigation-bottom-list-item.module.css"
+}
