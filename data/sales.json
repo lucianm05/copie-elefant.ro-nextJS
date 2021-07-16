@@ -1,0 +1,25 @@
+[{
+  "_id": "60f15034acb328aeb2971f9c",
+  "title": "Cărți în limba engleză",
+  "imageUrl": "/images/1_carte-straina.webp",
+  "discounted": true,
+  "discount": "-85%"
+},{
+  "_id": "60f15071acb328aeb2971f9d",
+  "title": "Jocuri și jucării",
+  "imageUrl": "/images/2_jucarii.webp",
+  "discounted": true,
+  "discount": "-70%"
+},{
+  "_id": "60f1508dacb328aeb2971f9e",
+  "title": "Produse pentru grădină",
+  "imageUrl": "/images/3_home_deco.webp",
+  "discounted": false,
+  "discount": "0%"
+},{
+  "_id": "60f150abacb328aeb2971f9f",
+  "title": "Parfumuri cu poveste",
+  "imageUrl": "/images/4_parfumuri.webp",
+  "discounted": true,
+  "discount": "-70%"
+}]

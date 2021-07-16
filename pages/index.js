@@ -1,32 +1,38 @@
-import HomePage from '../components/home-page/home-page';
+import { getSales } from '../helpers/api-util';
 
-const Index = (props) => {
+import Home from '../components/home-page/home-page';
+
+const HomePage = (props) => {
   const { sales } = props;
 
-  let content;
-
-  if(!sales) {
-    content = <p>Loading...</p>
+  if (!sales) {
+    return <p>Loading...</p>;
   }
-
-  content = <HomePage sales={sales} />
 
   return (
     <section>
-      {content}
+      <Home sales={sales} />
     </section>
   );
 };
 
 export async function getStaticProps() {
-  const result = await fetch('http://localhost:3000/api/homepage/sales');
-  const sales = await result.json();
+  const sales = await getSales();
+
+  if (!sales) {
+    return {
+      props: {
+        sales: [],
+      },
+    };
+  }
 
   return {
     props: {
-      sales: sales.sales,
+      sales: sales,
     },
+    revalidate: 43200,
   };
 }
 
-export default Index;
+export default HomePage;
