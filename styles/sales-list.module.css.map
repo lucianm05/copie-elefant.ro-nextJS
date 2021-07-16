@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,UAAU,AAAC,CACT,OAAO,CAAE,KAAK,CACd,KAAK,CAAE,WAAW,CAClB,MAAM,CAAE,IAAI,CACZ,MAAM,CAAE,MAAM,CACd,UAAU,CAAE,MAAM,CAanB,AAXC,MAAM,EAAC,SAAS,EAAE,KAAK,EAPzB,AAAA,UAAU,AAAC,CAQP,OAAO,CAAE,IAAI,CACb,KAAK,CAAE,IAAI,CACX,qBAAqB,CAAE,qCAAqC,CAC5D,WAAW,CAAE,MAAM,CACnB,aAAa,CAAE,MAAM,CAMxB,CAHC,MAAM,EAAC,SAAS,EAAE,MAAM,EAf1B,AAAA,UAAU,AAAC,CAgBP,qBAAqB,CAAE,qCAAqC,CAE/D",
+    "sources": [
+        "../components/home-page/product-list/sales-list.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "sales-list.module.css"
+}

@@ -1,0 +1,21 @@
+@import '../../../styles/_config.scss';
+
+.SalesList {
+  display: block;
+  width: fit-content;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+  @media(min-width: $md) {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    align-items: center;
+    justify-items: center;
+  } 
+
+  @media(min-width: $xl) {
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  }
+}

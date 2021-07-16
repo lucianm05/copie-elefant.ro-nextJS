@@ -5,9 +5,10 @@
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   grid-template-rows: repeat(6, 1fr);
   grid-auto-flow: column;
+  width: $lg - 32px;
+  position: absolute;
   gap: 0 0.3rem;
   z-index: 1;
-  width: 100%;
   height: auto;
   background-color: #fff;
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
@@ -20,15 +21,15 @@
 
   &Fixed {
     position: fixed;
-    max-width: $lg;
     left: 50%;
-    margin-left: -$lg/2;
+    margin-left: -($lg - 32px) / 2;
   }
 
   @media(min-width: $xl) {
+    width: $xl - 32px;
+
     &Fixed {
-      max-width: $xl;
-      margin-left: -$xl/2;
+      margin-left: -($xl - 32px) / 2;
     }
   }
 }
