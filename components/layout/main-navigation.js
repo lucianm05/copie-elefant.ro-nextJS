@@ -16,7 +16,7 @@ const MainNavigation = () => {
   }, []);
 
   const handleScroll = () => {
-    setNavigationVisible(!(scrollY > 120));
+    setNavigationVisible(!(scrollY > 130));
   };
 
   return (
@@ -25,7 +25,7 @@ const MainNavigation = () => {
       <MobileSearch navigationVisible={navigationVisible} />
       <MobileProductList />
       <Sublist />
-      <DesktopNavigation />
+      <DesktopNavigation navigationVisible={navigationVisible} />
     </header>
   );
 };

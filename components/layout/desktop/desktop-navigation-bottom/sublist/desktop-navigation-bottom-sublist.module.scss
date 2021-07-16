@@ -17,4 +17,18 @@
   &Active {
     display: grid;
   }
+
+  &Fixed {
+    position: fixed;
+    max-width: $lg;
+    left: 50%;
+    margin-left: -$lg/2;
+  }
+
+  @media(min-width: $xl) {
+    &Fixed {
+      max-width: $xl;
+      margin-left: -$xl/2;
+    }
+  }
 }

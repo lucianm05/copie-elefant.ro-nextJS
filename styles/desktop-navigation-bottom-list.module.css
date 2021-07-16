@@ -1,2 +1,2 @@
-.DesktopNavigationBottomList{width:100%;text-align:center;background-color:#efefef;padding:1.3rem 0}@media (min-width: 1200px){.DesktopNavigationBottomList{padding:2rem 0}}
+.DesktopNavigationBottomList{width:100%;text-align:center;background-color:#efefef;padding:1.3rem 0}.DesktopNavigationBottomListFixed{position:fixed;max-width:992px;top:0;left:50%;margin-left:-496px;box-shadow:0 0.5rem 0.5rem rgba(0,0,0,0.1)}@media (min-width: 1200px){.DesktopNavigationBottomList{padding:2rem 0}.DesktopNavigationBottomListFixed{max-width:1200px;margin-left:-600px}}
 /*# sourceMappingURL=desktop-navigation-bottom-list.module.css.map */

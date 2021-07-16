@@ -6,7 +6,9 @@ import DesktopNavigationBottomListItem from './desktop-navigation-bottom-list-it
 import DesktopNavigationBottomSublist from './sublist/desktop-navigation-bottom-sublist';
 import Context from '../../../../store/context';
 
-const DesktopNavigationBottomList = () => {
+const DesktopNavigationBottomList = (props) => {
+  const { navigationVisible } = props;
+
   const categories = getAllCategories();
   const context = useContext(Context);
   const desktopSublistContent = context.desktopSublistContent;
@@ -14,12 +16,12 @@ const DesktopNavigationBottomList = () => {
 
   return (
     <Fragment>
-      <ul onMouseOver={setDesktopSublistContent} className={classes.DesktopNavigationBottomList} data-identifier='dnvl'>
+      <ul onMouseOver={setDesktopSublistContent} className={classes.DesktopNavigationBottomList + ' ' + (!navigationVisible ? classes.DesktopNavigationBottomListFixed : '')} data-identifier='dnvl'>
         {categories.map((category) => (
           <DesktopNavigationBottomListItem key={category.id} category={category} />
         ))}
       </ul>
-      <DesktopNavigationBottomSublist subcategories={desktopSublistContent} />
+      <DesktopNavigationBottomSublist navigationVisible={navigationVisible} subcategories={desktopSublistContent} />
     </Fragment>
   );
 };
