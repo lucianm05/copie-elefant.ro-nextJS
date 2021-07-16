@@ -1,6 +1,6 @@
-import Index from '../components/home-page/home-page';
+import HomePage from '../components/home-page/home-page';
 
-const HomePage = (props) => {
+const Index = (props) => {
   const { sales } = props;
 
   let content;

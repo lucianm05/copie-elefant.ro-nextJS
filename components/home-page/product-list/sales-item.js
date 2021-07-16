@@ -5,7 +5,6 @@ import classes from '/styles/sales-item.module.css';
 
 const SalesListItem = (props) => {
   const { sale } = props;
-  console.log(sale);
 
   return (
     <li className={classes.SalesListItem}>
