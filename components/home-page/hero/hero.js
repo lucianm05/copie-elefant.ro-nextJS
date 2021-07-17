@@ -6,7 +6,7 @@ import classes from '/styles/hero.module.css';
 
 const Hero = () => {
   return (
-    <section className={classes.Hero} aria-label='Promoțiile actuale pe elefant.ro'>
+    <section aria-label='Promoțiile actuale pe elefant.ro' className={classes.Hero}>
       <Link href='#'>
         <a title='La elefant este timpul pentru Summer Black Friday. Apasă pentru a vedea promoțiile.'>
           <div className={classes.HeroImageMobile}>

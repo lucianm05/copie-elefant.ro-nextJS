@@ -10,7 +10,7 @@ import DesktopNavigation from './desktop/desktop-navigation';
 
 const MainNavigation = () => {
   const [navigationVisible, setNavigationVisible] = useState(true);
-  const [windowComponent, setWindowComponent] = useState({ visualViewport: { width: 992 } });
+  const [windowWidth, setWindowWidth] = useState({ width: 992 });
   const [isMobileDevice, setIsMobileDevice] = useState(false);
 
   useEffect(() => {
@@ -18,11 +18,9 @@ const MainNavigation = () => {
   }, []);
 
   useEffect(() => {
-    setWindowComponent(window);
-    if (window.visualViewport.width < 992) {
-      setIsMobileDevice(true);
-    }
-  }, [windowComponent.visualViewport.width]);
+    setWindowWidth(window.visualViewport);
+    setIsMobileDevice(windowWidth.width < 992);
+  }, [windowWidth.width]);
 
   const handleScroll = () => {
     setNavigationVisible(!(scrollY > 130));
@@ -34,7 +32,7 @@ const MainNavigation = () => {
       <MobileSearch navigationVisible={navigationVisible && isMobileDevice} />
       <MobileProductList />
       <Sublist />
-      <DesktopNavigation navigationVisible={navigationVisible} />
+      <DesktopNavigation navigationVisible={navigationVisible && !isMobileDevice} />
     </header>
   );
 };

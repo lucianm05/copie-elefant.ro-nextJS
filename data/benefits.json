@@ -1,0 +1,6 @@
+[
+  { "_id": "60f2a8c83f1429fec9091116", "icon": "<IconGps />", "title": "Transport gratuit", "subtitle": "În oficiile poștei române, la comenzi mai mari de 149.99 lei", "buttonText": "Spor la cumpărături" },
+  { "_id": "60f2a9b83f1429fec9091117", "icon": "<IconGps />", "title": "Transport gratuit prin curier", "subtitle": "La comenzi de peste 149.99 lei", "buttonText": "Spor la cumpărături" },
+  { "_id": "60f2a9d63f1429fec9091118", "icon": "<IconGps />", "title": "Transport gratuit", "subtitle": "În pick-up point, indiferent de valoarea comenzii", "buttonText": "Spor la cumpărături" },
+  { "_id": "60f2a9f33f1429fec9091119", "icon": "<IconGps />", "title": "Transport gratuit", "subtitle": "În EasyBox, la comenzi mai mari de 149.99 lei", "buttonText": "Spor la cumpărături" }
+]

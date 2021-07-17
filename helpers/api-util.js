@@ -26,3 +26,11 @@ export const getTopCategories = async () => {
 
   return await getFileData('top-categories.json');
 };
+
+export const getBenefits = async () => {
+  // Doesn't work in production
+  // const result = await fetch(`${BASE_URL}/api/homepage/benefits`);
+  // const benefits = await result.json();
+
+  return await getFileData('benefits.json');
+};
