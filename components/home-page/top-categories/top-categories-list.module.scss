@@ -1,0 +1,43 @@
+@import '../../../styles/_config.scss';
+
+.TopCategoriesTitle {
+  display: block;
+  width: fit-content;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 3rem;
+
+  & h1 {
+    text-transform: uppercase;
+    width: fit-content;
+    font-size: 1.3rem;
+    margin-bottom: 0.2rem;
+  }
+
+  & hr {
+    border: 1px solid $customOrange;
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+.TopCategoriesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: 1rem 0.5rem;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 1rem;
+  margin: 1rem 0;
+  text-align: center;
+
+  @media (min-width: $sm) {
+    grid-template-columns: repeat(2, minmax(10.13rem, 1fr));
+  }
+
+  @media (min-width: $md) {
+    grid-template-columns: repeat(4, minmax(10.13rem, 1fr));
+  }
+}

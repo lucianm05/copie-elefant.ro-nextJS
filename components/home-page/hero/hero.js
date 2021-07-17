@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
 import classes from '/styles/hero.module.css';
 
 const Hero = () => {
   return (
-    <section className={classes.Hero}>
+    <section className={classes.Hero} aria-label='Promoțiile actuale pe elefant.ro'>
       <Link href='#'>
         <a title='La elefant este timpul pentru Summer Black Friday. Apasă pentru a vedea promoțiile.'>
           <div className={classes.HeroImageMobile}>

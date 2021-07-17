@@ -1,13 +1,13 @@
 @import '../../../styles/_config.scss';
 
 .DesktopNavigation {
-  display: flex;
-  flex-direction: column;
+  display: none;
   width: 100%;
   padding: 2rem 1rem;
   gap: 1rem;
 
-  @media (max-width: $lg) {
-    display: none;
+  @media (min-width: $lg) {
+    display: flex;
+    flex-direction: column;
   }
 }

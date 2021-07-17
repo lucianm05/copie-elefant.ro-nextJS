@@ -5,9 +5,13 @@ const DesktopNavigationSearchForm = () => {
   return (
     <form action='#' method='#' className={classes.DesktopNavigationSearchForm}>
       <fieldset className={classes.DesktopNavigationSearchFieldset}>
-        <legend className={'ScreenReadersOnly'}>Caută pe site-ul elefant.ro:</legend>
+        <legend className={'ScreenReadersOnly'} aria-label='Caută pe site-ul elefant.ro'>
+          Caută pe site-ul elefant.ro:
+        </legend>
         <label className={classes.DesktopNavigationSearchLabel}>
-          <span className={'ScreenReadersOnly'}>Introdu produsul căutat:</span>
+          <span className={'ScreenReadersOnly'} aria-label='Introdu în câmpul de mai jos produsul căutat'>
+            Introdu în câmpul de mai jos produsul căutat:
+          </span>
           <input className={classes.DesktopNavigationSearchInput} placeholder='Caută produsul dorit' type='search' id='desktopSearch' name='desktopSearch' />
           <button className={classes.DesktopNavigationSearchButton} type='button' aria-label='Buton pentru căutare produs.'>
             <IconSearch />

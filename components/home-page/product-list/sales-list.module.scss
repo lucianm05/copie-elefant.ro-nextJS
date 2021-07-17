@@ -1,10 +1,14 @@
 @import '../../../styles/_config.scss';
 
 .SalesList {
-  display: block;
-  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   height: 100%;
-  margin: 0 auto;
+  padding: 0 1rem;
+  margin: 1rem 0;
   text-align: center;
 
   @media(min-width: $md) {

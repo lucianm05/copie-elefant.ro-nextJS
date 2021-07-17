@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,kBAAkB,AAAC,CACjB,OAAO,CAAE,KAAK,CACd,KAAK,CAAE,WAAW,CAanB,AAfD,AAIE,kBAJgB,CAId,CAAC,AAAC,CACF,KAAK,CCEiB,OAAO,CDD7B,eAAe,CAAE,IAAI,CACtB,AAPH,AAWI,kBAXc,AASf,MAAM,CAEH,CAAC,AAAC,CACF,eAAe,CAAE,SAAS,CAC3B,AAIL,AAAA,yBAAyB,AAAC,CACxB,OAAO,CAAE,KAAK,CACd,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CAOb,AAVD,AAKE,yBALuB,CAKrB,EAAE,AAAC,CACH,cAAc,CAAE,SAAS,CACzB,SAAS,CAAE,MAAM,CACjB,MAAM,CAAE,MAAM,CACf",
+    "sources": [
+        "../components/home-page/top-categories/top-categories-item.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "top-categories-item.module.css"
+}
