@@ -7,25 +7,30 @@
   width: 100%;
   height: auto;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .BenefitsCarousel {
   display: block;
-  width: 100%;
+  width: 90%;
   height: 100%;
   margin: 1rem 2rem;
   background-color: $customGreen;
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
 
-  @media(min-width: $md) {
+  @media (min-width: $md) {
     margin: 1rem;
   }
 }
 
 .BenefitsCarouselInner {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
   width: 100%;
   height: 100%;
+  padding: 1rem 0;
 
   &Left,
   &Right {
@@ -33,7 +38,7 @@
 
     & svg {
       width: 100%;
-      height: fit-content;
+      height: 100%;
       fill: $customGreen;
       pointer-events: none;
     }
@@ -44,17 +49,42 @@
 
     @media (min-width: $md) {
       display: block;
+      position: absolute;
+      z-index: 1;
+      top: 50%;
       flex: 5%;
       background-color: rgba(255, 255, 255, 0.7);
-      height: 35%;
-      margin: 0 0.2rem;
-      padding: 2rem 0;
+      height: 6.25rem;
+      margin-top: -3.125rem;
     }
   }
 
-  @media (min-width: $md) {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  &Right {
+    right: 0;
+  }
+
+  &Left {
+    left: 0;
+  }
+}
+
+.BenefitsCarouselControls {
+  display: flex;
+  gap: 0 1rem;
+  width: 8rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 50%;
+  margin-left: -4rem;
+  z-index: 1;
+
+  & button {
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: #eee;
+    cursor: pointer;
   }
 }

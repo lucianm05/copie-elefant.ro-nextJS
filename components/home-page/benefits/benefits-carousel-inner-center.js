@@ -2,19 +2,24 @@ import Link from 'next/link';
 
 import classes from '/styles/benefits-carousel-inner-center.module.css';
 import IconGps from '../../ui/icons/icon-gps';
+import { Fragment } from 'react';
 
 const BenefitsCarouselInnerCenter = (props) => {
-  const { benefits, currentSlide } = props;
+  const { benefits, style } = props;
 
   return (
-    <div className={classes.BenefitsCarouselInnerCenter}>
-      <IconGps />
-      <h2>{benefits[currentSlide].title}</h2>
-      <h3>{benefits[currentSlide].subtitle}</h3>
-      <Link href='#'>
-        <a>{benefits[currentSlide].buttonText}</a>
-      </Link>
-    </div>
+    <Fragment>
+      {benefits.map((benefit) => (
+        <div key={benefit._id} className={classes.BenefitsCarouselInnerCenter} style={style}>
+          <IconGps />
+          <h2>{benefit.title}</h2>
+          <h3>{benefit.subtitle}</h3>
+          <Link href='#'>
+            <a>{benefit.buttonText}</a>
+          </Link>
+        </div>
+      ))}
+    </Fragment>
   );
 };
 
