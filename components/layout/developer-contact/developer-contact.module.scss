@@ -1,0 +1,33 @@
+@import '../../../styles/_config.scss';
+
+.DeveloperContact {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: $customTextColorDarkGray;
+  border-top: 1px solid $customIconColorMobile;
+
+  & p {
+    margin: 0.5rem 0;
+  }
+}
+
+.DeveloperContactLinks {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  gap: 0 2rem;
+
+  & a {
+    color: $customTextColorDarkGray;
+  }
+
+  & svg {
+    fill: $customTextColorDarkGray;
+    pointer-events: none;
+  }
+}

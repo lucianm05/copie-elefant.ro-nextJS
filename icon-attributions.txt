@@ -10,7 +10,9 @@ icon-arrow-right: right by AlePio from the Noun Project
 icon-arrow-left: right by AlePio from the Noun Project
 icon-diamond: Diamond by Three Six Five from the Noun Project
 icon-gps: Location by Maniacco from the Noun Project
-icon-email: Email by Maniacco from the Noun Project
+icon-email: Email by Barudak Lier from the Noun Project
 icon-question-mark: Question by unlimicon from the Noun Project
 icon-facebook: https://icons8.com/icons/set/facebook
 icon-instagram: https://icons8.com/icons/set/instagram
+icon-github: https://icons8.com/icon/106562/github
+icon-linkedin: https://icons8.com/icon/85044/linkedin
