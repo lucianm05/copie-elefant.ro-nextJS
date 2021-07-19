@@ -16,7 +16,7 @@ const MobileSearch = (props) => {
               Introdu în câmpul de mai jos produsul căutat:
             </span>
             <input className={classes.MobileSearchInput} placeholder='Caută produsul dorit' type='search' id='mobileSearch' name='mobileSearch' />
-            <button className={classes.MobileSearchButton} type='button' aria-label='Buton pentru căutare produs.'>
+            <button className={classes.MobileSearchButton} type='submit' aria-label='Buton pentru căutare produs.'>
               <IconSearch />
             </button>
           </label>
