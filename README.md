@@ -1,4 +1,4 @@
-# EN
+# - EN -
 
 The application is an imitation of the main page on elefant.ro. Everything related to the design belongs to elefant, except for the different icons that come from different sources, mentioned in a file that can pe found in the source code.
 
