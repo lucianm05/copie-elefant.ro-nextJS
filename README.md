@@ -15,6 +15,7 @@ Datele prezente pe pagină sunt în mare parte introduse în mod dinamic, dintr-
 Aplicația este Progressive Web App și poate fi instalată pe orice dispozitiv.
 
 În urma testării cu Lighthouse am obținut un scor mediu de 100, atât pe desktop cât și pe mobil. Pentru testare am folosit o pagină incognito în Google Chrome.
+
 ![Rezultatele testării cu Lighthouse](lighthouse-result.png)
 
 Tech stack: React, NextJS, NodeJS, MongoDB, SCSS.
