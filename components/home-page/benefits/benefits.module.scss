@@ -8,6 +8,7 @@
   height: auto;
   margin: 0 auto;
   overflow: hidden;
+  background-color: #fff;
 }
 
 .BenefitsCarousel {
@@ -17,6 +18,7 @@
   margin: 1rem 2rem;
   background-color: $customGreen;
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 
   @media (min-width: $md) {
     margin: 1rem;

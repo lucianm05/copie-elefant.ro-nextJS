@@ -1,0 +1,55 @@
+@import '../../../styles/_config.scss';
+
+.FooterHelpfulLinks {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+
+  & :nth-child(1) {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  & :nth-last-child(1) {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  @media(min-width: $lg) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 0.5rem;
+
+    & :nth-child(1) {
+      border-radius: unset;
+    }
+  
+    & :nth-last-child(1) {
+      border-radius: unset;
+    }
+  }
+}
+
+.FooterLink {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: $customTextColorDarkGray;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid $customLightGray;
+
+  & svg {
+    fill: $customGreen;
+    width: 20px;
+    height: 20px;
+  }
+
+  @media(min-width: $lg) {
+    border-radius: 5px;
+  }
+}

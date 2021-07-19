@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import classes from '/styles/benefits.module.css';
 import IconArrowLeft from '../../ui/icons/icon-arrow-left';
@@ -10,12 +10,14 @@ const Benefits = (props) => {
   const [positionX, setPositionX] = useState(0);
   const [currentSlide, setCurrentSlide] = useState(0);
 
+  const maxValue = benefits.length - 1;
+
   const setCurrentSlideHandler = (event) => {
     const target = event.target;
 
     if (target.dataset.carouselrole) {
+
       const targetRole = target.dataset.carouselrole;
-      const maxValue = benefits.length - 1;
 
       if (targetRole === 'decrement') {
         positionX === 0 ? setPositionX(-100 * maxValue) : setPositionX(positionX + 100);

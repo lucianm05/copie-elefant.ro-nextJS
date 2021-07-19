@@ -1,6 +1,6 @@
 import classes from '/styles/home-page.module.css';
 import Hero from './hero/hero';
-import SalesList from './product-list/sales-list';
+import SalesList from './sales-list/sales-list';
 import TopCategoriesList from './top-categories/top-categories-list';
 import Benefits from './benefits/benefits';
 
