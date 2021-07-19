@@ -4,11 +4,11 @@ Aplicația reprezintă o imitație a paginii principale de pe elefant.ro. Tot ce
 
 Am considerat că este un exercițiu bun pentru a învăța mai bine să lucrez cu NextJS și pentru a-mi dezvolta capabilitățile de fullstack, în special pe cele de frontend. 
 Principalele cunoștiințe desprinse în urma dezvoltării acestei aplicații sunt:
-*accesibilitate 
-*viteza paginii
-*așezarea în pagină
-*slider cu imagini creat de la 0, fără alte pachete terță
-*multe funcționalități oferite de NextJS.
+* accesibilitate 
+* viteza paginii
+* așezarea în pagină
+* slider cu imagini creat de la 0, fără alte pachete terță
+* multe funcționalități oferite de NextJS.
 
 Datele prezente pe pagină sunt în mare parte introduse în mod dinamic, dintr-o bază de date non-relațională în format JSON, prin intermediul unui REST API.
 
