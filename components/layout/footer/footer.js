@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 import classes from '/styles/footer.module.css';
 import FooterSupport from './footer-support';
 import FooterSocialLinks from './footer-social-links';
