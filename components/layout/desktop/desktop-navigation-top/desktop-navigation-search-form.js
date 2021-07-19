@@ -13,7 +13,7 @@ const DesktopNavigationSearchForm = () => {
             Introdu în câmpul de mai jos produsul căutat:
           </span>
           <input className={classes.DesktopNavigationSearchInput} placeholder='Caută produsul dorit' type='search' id='desktopSearch' name='desktopSearch' />
-          <button className={classes.DesktopNavigationSearchButton} type='button' aria-label='Buton pentru căutare produs.'>
+          <button className={classes.DesktopNavigationSearchButton} type='submit' aria-label='Buton pentru căutare produs.'>
             <IconSearch />
           </button>
         </label>
