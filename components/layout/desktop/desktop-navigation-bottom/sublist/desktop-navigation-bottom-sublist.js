@@ -5,7 +5,7 @@ import DesktopNavigationBottomSublistItem from './desktop-navigation-bottom-subl
 import Context from '../../../../../store/context';
 
 const DesktopNavigationBottomSublist = (props) => {
-  const { subcategories } = props;
+  const { subcategories, navigationVisible } = props;
   const context = useContext(Context);
   const showDesktopSublist = context.showDesktopSublist;
   const setShowDesktopSublist = context.setShowDesktopSublist;
@@ -15,7 +15,7 @@ const DesktopNavigationBottomSublist = (props) => {
   }
 
   return (
-    <ul onMouseLeave={setShowDesktopSublistHandler} className={classes.DesktopNavigationBottomSublist + ' ' + (showDesktopSublist ? classes.DesktopNavigationBottomSublistActive : '')}>
+    <ul onMouseLeave={setShowDesktopSublistHandler} className={classes.DesktopNavigationBottomSublist + ' ' + (showDesktopSublist ? classes.DesktopNavigationBottomSublistActive : '') + ' ' + (!navigationVisible ? classes.DesktopNavigationBottomSublistFixed : '')}>
       {subcategories.map((subcategory) => (
         <DesktopNavigationBottomSublistItem key={subcategory} subcategory={subcategory} />
       ))}

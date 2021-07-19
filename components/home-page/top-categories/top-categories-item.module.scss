@@ -1,0 +1,30 @@
+@import '../../../styles/_config.scss';
+
+.TopCategoriesItem {
+  display: block;
+  width: fit-content;
+  
+  & a {
+    color: $customTextColorDarkGray;
+    text-decoration: none;
+  }
+
+  &:hover {
+
+    & a {
+      text-decoration: underline;
+    }
+  }
+}
+
+.TopCategoriesItemContent {
+  display: block;
+  width: 100%;
+  height: 100%;
+  
+  & h2 {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin: 0.5rem;
+  }
+}

@@ -1,2 +1,2 @@
-.DesktopNavigationTop{display:flex;flex-direction:row;justify-content:space-between;width:100%}.DesktopNavigationLogo{display:block;width:14rem;height:auto}.DesktopNavigationLogo:hover{cursor:pointer}@media (max-width: 992px){.DesktopNavigationLogo{display:none}}@media (min-width: 1200px){.DesktopNavigationLogo{width:16.75rem}}
+.DesktopNavigationTop{display:flex;flex-direction:row;justify-content:space-between;width:100%}.DesktopNavigationLogo{display:none;width:14rem;height:auto}.DesktopNavigationLogo:hover{cursor:pointer}@media (min-width: 992px){.DesktopNavigationLogo{display:block}}@media (min-width: 1200px){.DesktopNavigationLogo{width:16.75rem}}
 /*# sourceMappingURL=desktop-navigation-top.module.css.map */

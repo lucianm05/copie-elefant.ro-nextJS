@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../components/home-page/home-page.module.scss"
+    ],
+    "names": [],
+    "file": "home-page.module.css"
+}

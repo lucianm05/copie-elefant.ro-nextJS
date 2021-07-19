@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,kBAAkB,AAAC,CACjB,OAAO,CAAE,IAAI,CACb,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,eAAe,CAAE,YAAY,CAC7B,WAAW,CAAE,MAAM,CACnB,MAAM,CAAE,MAAM,CAef,AArBD,AAQE,kBARgB,CAQd,GAAG,AAAC,CACJ,IAAI,CAAE,IAAI,CACX,AAED,MAAM,EAAE,SAAS,EAAE,KAAK,EAZ1B,AAAA,kBAAkB,AAAC,CAaf,eAAe,CAAE,QAAQ,CACzB,MAAM,CAAE,CAAC,CACT,aAAa,CAAE,IAAI,CAMtB,AArBD,AAiBI,kBAjBc,CAiBZ,GAAG,AAAC,CACJ,IAAI,CCXgB,OAAO,CDY5B",
+    "sources": [
+        "../components/layout/footer/footer-social-links.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "footer-social-links.module.css"
+}

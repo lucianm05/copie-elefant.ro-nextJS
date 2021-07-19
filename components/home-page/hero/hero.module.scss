@@ -1,0 +1,23 @@
+@import '../../../styles/_config.scss';
+
+.Hero {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.HeroImageMobile {
+  display: block;
+
+  @media(min-width: $md) {
+    display: none;
+  }
+}
+
+.HeroImageDesktop {
+  display: none;
+
+  @media(min-width: $md) {
+    display: block;
+  }
+}

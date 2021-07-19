@@ -8,7 +8,7 @@
 }
 
 .DesktopNavigationLogo {
-  display: block;
+  display: none;
   width: 14rem;
   height: auto;
 
@@ -16,8 +16,8 @@
     cursor: pointer;
   }
 
-  @media(max-width: $lg) {
-    display: none;
+  @media(min-width: $lg) {
+    display: block;
   }
 
   @media (min-width: $xl) {

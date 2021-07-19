@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,KAAK,AAAC,CACJ,OAAO,CAAE,KAAK,CACd,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACb,AAED,AAAA,gBAAgB,AAAC,CACf,OAAO,CAAE,KAAK,CAKf,AAHC,MAAM,EAAC,SAAS,EAAE,KAAK,EAHzB,AAAA,gBAAgB,AAAC,CAIb,OAAO,CAAE,IAAI,CAEhB,CAED,AAAA,iBAAiB,AAAC,CAChB,OAAO,CAAE,IAAI,CAKd,AAHC,MAAM,EAAC,SAAS,EAAE,KAAK,EAHzB,AAAA,iBAAiB,AAAC,CAId,OAAO,CAAE,KAAK,CAEjB",
+    "sources": [
+        "../components/home-page/hero/hero.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "hero.module.css"
+}

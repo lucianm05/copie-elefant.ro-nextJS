@@ -8,9 +8,9 @@ const DesktopNavigationBottomListItem = (props) => {
 
   return (
     <Fragment>
-      <li className={classes.DesktopNavigationBottomListItem} data-categoryid={category.id}>
+      <li className={classes.DesktopNavigationBottomListItem} data-categoryid={category.title !== 'Outlet' ? category.id : null}>
         <Link href='#'>
-          <a data-categoryid={category.id}>{category.title}</a>
+          <a data-categoryid={category.title !== 'Outlet' ? category.id : null}>{category.title}</a>
         </Link>
       </li>
     </Fragment>

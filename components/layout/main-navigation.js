@@ -10,22 +10,29 @@ import DesktopNavigation from './desktop/desktop-navigation';
 
 const MainNavigation = () => {
   const [navigationVisible, setNavigationVisible] = useState(true);
+  const [windowWidth, setWindowWidth] = useState({ width: 992 });
+  const [isMobileDevice, setIsMobileDevice] = useState(false);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    setWindowWidth(window.visualViewport);
+    setIsMobileDevice(windowWidth.width < 992);
+  }, [windowWidth.width]);
+
   const handleScroll = () => {
-    setNavigationVisible(!(scrollY > 120));
+    setNavigationVisible(!(scrollY > 130));
   };
 
   return (
     <header className={classes.Header}>
       <MobileNavigation />
-      <MobileSearch navigationVisible={navigationVisible} />
+      <MobileSearch navigationVisible={navigationVisible && isMobileDevice} />
       <MobileProductList />
       <Sublist />
-      <DesktopNavigation />
+      <DesktopNavigation navigationVisible={navigationVisible && !isMobileDevice} />
     </header>
   );
 };
