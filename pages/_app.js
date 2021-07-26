@@ -14,13 +14,13 @@ function MyApp({ Component, pageProps }) {
           <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
           <meta
             name='description'
-            content='Pe elefant.ro gasesti cele mai bune oferte pentru o gama variata de categorii de produse • Avem peste 500.000 de produse in stoc la cele mai mici preturi online • Extra reduceri disponibile in fiecare zi • Livrare rapida in Bucuresti si in tara • Intra pe site!'
+            content='Website realizat de Manea Lucian George în scop demonstrativ care urmărește crearea unui layout complex în Next.js. Design original și imagini preluate de pe website-ul elefant.ro.'
           />
           <meta name='robots' content='index, follow' />
           <meta property='og:title' content='Copie elefant.ro NextJS' />
           <meta
             property='og:description'
-            content='Pe elefant.ro gasesti cele mai bune oferte pentru o gama variata de categorii de produse • Avem peste 500.000 de produse in stoc la cele mai mici preturi online • Extra reduceri disponibile in fiecare zi • Livrare rapida in Bucuresti si in tara • Intra pe site!'
+            content='Website realizat de Manea Lucian George în scop demonstrativ care urmărește crearea unui layout complex în Next.js. Design original și imagini preluate de pe website-ul elefant.ro.'
           />
           <meta property='og:site_name' content='Copie elefant.ro NextJS' />
           <meta property='og:type' content='website' />
