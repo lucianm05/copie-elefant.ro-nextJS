@@ -34,8 +34,8 @@ function MyApp({ Component, pageProps }) {
           <meta property='article:section' content='Copie elefant.ro NextJS' />
           <meta property='article:published_time' content='2021-07-19T12:30:51.508Z' />
           <meta property='article:publisher' content='2021-07-19T12:35:51.508Z' />
-          <meta name='twitter:site' content='@zvenko' />
-          <meta name='twitter:creator' content='@zvenko' />
+          <meta name='twitter:site' content='@lucianmg05' />
+          <meta name='twitter:creator' content='@lucianmg05' />
           <meta name='twitter:card' content='summary_large_image' />
 
           <meta name='application-name' content='Copie elefant.ro NextJS' />
